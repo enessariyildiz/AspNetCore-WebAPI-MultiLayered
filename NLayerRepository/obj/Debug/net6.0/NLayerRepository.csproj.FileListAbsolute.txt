@@ -1,0 +1,15 @@
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\bin\Debug\net6.0\NLayerRepository.deps.json
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\bin\Debug\net6.0\NLayerRepository.dll
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\bin\Debug\net6.0\NLayerRepository.pdb
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\bin\Debug\net6.0\NLayer.Core.dll
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\bin\Debug\net6.0\NLayer.Core.pdb
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\obj\Debug\net6.0\NLayerRepository.csproj.AssemblyReference.cache
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\obj\Debug\net6.0\NLayerRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\obj\Debug\net6.0\NLayerRepository.AssemblyInfoInputs.cache
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\obj\Debug\net6.0\NLayerRepository.AssemblyInfo.cs
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\obj\Debug\net6.0\NLayerRepository.csproj.CoreCompileInputs.cache
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\obj\Debug\net6.0\NLayerRepository.csproj.CopyComplete
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\obj\Debug\net6.0\NLayerRepository.dll
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\obj\Debug\net6.0\refint\NLayerRepository.dll
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\obj\Debug\net6.0\NLayerRepository.pdb
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\obj\Debug\net6.0\ref\NLayerRepository.dll
