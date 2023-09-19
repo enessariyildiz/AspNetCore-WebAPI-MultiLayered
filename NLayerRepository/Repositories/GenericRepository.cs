@@ -6,7 +6,7 @@ using System.Security.AccessControl;
 
 namespace NLayerRepository.Repositories
 {
-    internal class GenericRepository<T> : IGenericRepository<T> where T : class
+    public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         protected readonly AppDbContext _context;
         private readonly DbSet<T> _dbSet;
