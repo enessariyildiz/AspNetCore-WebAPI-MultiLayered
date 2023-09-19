@@ -13,3 +13,5 @@ C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\obj\Deb
 C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\obj\Debug\net6.0\refint\NLayerRepository.dll
 C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\obj\Debug\net6.0\NLayerRepository.pdb
 C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\obj\Debug\net6.0\ref\NLayerRepository.dll
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\bin\Debug\net6.0\NLayerRepository.runtimeconfig.json
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayerRepository\obj\Debug\net6.0\NLayerRepository.genruntimeconfig.cache
