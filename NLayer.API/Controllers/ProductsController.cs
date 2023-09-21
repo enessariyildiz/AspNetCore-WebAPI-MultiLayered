@@ -13,14 +13,26 @@ namespace NLayer.API.Controllers
     {
         private readonly IMapper _mapper;
         private readonly IService<Product> _service;
+        private readonly IProductService productService;
 
-        public ProductsController(IMapper mapper, IService<Product> service)
+        public ProductsController(IMapper mapper, IService<Product> service, IProductService productService)
         {
             _mapper = mapper;
             _service = service;
+            this.productService = productService;
+            //_productService = productService;
         }
 
+        // Metot isimleri farklı olsada get istekleri aynı olduğu için direk parametre olarak metot ismi veriyoruz. 
+        // yada parametre olarak action ifadesi kullanıyoruz.
+        /// GET api/products/GetProductsWithCategory
+        [HttpGet("[action]")]
+        public async Task<IActionResult> GetProductsWithCategory()
+        {
+            return CreateActionResult(await productService.GetProductsWithCategory());
+        }
 
+        /// GET api/products 
         [HttpGet]
         public async Task<IActionResult> All()
         {
