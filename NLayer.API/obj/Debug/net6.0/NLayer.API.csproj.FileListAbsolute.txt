@@ -96,3 +96,5 @@ C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayer.API\bin\Debug\net
 C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\Autofac.dll
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
