@@ -32,6 +32,7 @@ builder.Services.Configure<ApiBehaviorOptions>(optios =>
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddMemoryCache();
 
 // Kursla beraber eklenen satýrlar.
 builder.Services.AddScoped(typeof(NotFoundFilter<>));
