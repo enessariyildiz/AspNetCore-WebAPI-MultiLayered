@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "lqwokScbZN5Hpidu8MZrtV7CbUluKF6VrLEFlbo4uSXSbcJwOR5KIA6Qoknq19u/D/gmZYjXazzTe+pqVACzag==",
+  "dgSpecHash": "MIthhvZA9gEGLCBn2aR410gvUha+QGUOsJ4H2sKwF/7jOHaOyfu6/6oxRQpI3Js3gCc/U5Dxu15GpolDr9ZYkg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ens_s\\Desktop\\Software\\Projects\\NLayerUdemyApp\\NLayer.Web\\NLayer.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ens_s\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
+    "C:\\Users\\ens_s\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\ens_s\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ens_s\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\ens_s\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",

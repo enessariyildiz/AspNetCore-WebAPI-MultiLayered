@@ -45,6 +45,7 @@ builder.Services.AddAutoMapper(typeof(MapProfile));
 
 //--
 
+//-- Db Connection 
 builder.Services.AddDbContext<AppDbContext>(x =>
  {
      x.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection"), option =>

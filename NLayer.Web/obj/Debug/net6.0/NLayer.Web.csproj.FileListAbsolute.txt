@@ -89,3 +89,5 @@ C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayer.Web\bin\Debug\net
 C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayer.Web\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayer.Web\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayer.Web\obj\Debug\net6.0\NLayer.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayer.Web\bin\Debug\net6.0\Autofac.dll
+C:\Users\ens_s\Desktop\Software\Projects\NLayerUdemyApp\NLayer.Web\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll

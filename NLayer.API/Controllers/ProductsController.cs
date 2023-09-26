@@ -22,11 +22,14 @@ namespace NLayer.API.Controllers
 
         // Metot isimleri farklı olsada get istekleri aynı olduğu için direk parametre olarak metot ismi veriyoruz. 
         // yada parametre olarak action ifadesi kullanıyoruz.
+
         /// GET api/products/GetProductsWithCategory
         [HttpGet("[action]")]
         public async Task<IActionResult> GetProductsWithCategory()
         {
-            return CreateActionResult(await _service.GetProductsWithCategory());
+            //return CreateActionResult(await _service.GetProductsWithCategory());
+            //API projesinin hata vermemesi için değiştirdiğim kod satırı.
+            return (IActionResult)await _service.GetProductsWithCategory();
         }
 
         /// GET api/products 
