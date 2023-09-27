@@ -25,6 +25,7 @@
                 <td>@item.CreatedDate</td>
                 <td>
                     <a class="btn btn-dark" asp-controller="Products" asp-action="Update" asp-route-id="@item.Id">Update</a>
+                    <a class="btn btn-danger" asp-controller="Products" asp-action="Remove" asp-route-id="@item.Id">Delete</a>
                 </td> 
             </tr>
         }
