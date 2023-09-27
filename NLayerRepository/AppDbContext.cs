@@ -16,6 +16,55 @@ namespace NLayerRepository
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductFeature> ProductFeatures { get; set; }
 
+        public override int SaveChanges()
+        {
+            foreach (var item in ChangeTracker.Entries())
+            {
+                if (item.Entity is BaseEntity entityReferance)
+                {
+                    switch (item.State)
+                    {
+                        case EntityState.Added:
+                            entityReferance.CreatedDate = DateTime.UtcNow;
+                            break;
+                        case EntityState.Modified:
+                            entityReferance.UpdatedDate = DateTime.UtcNow;
+                            break;
+                    }
+                }
+            }
+
+            return base.SaveChanges();
+        }
+
+
+
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+
+            foreach (var item in ChangeTracker.Entries())
+            {
+                if (item.Entity is BaseEntity entityReferance)
+                {
+                    switch (item.State)
+                    {
+                        case EntityState.Added:
+                            entityReferance.CreatedDate = DateTime.UtcNow;
+                            break;
+                        case EntityState.Modified:
+                            Entry(entityReferance).Property(x => x.CreatedDate).IsModified = false;
+                            entityReferance.UpdatedDate = DateTime.UtcNow;
+                            break;
+                    }
+                }
+            }
+
+
+
+
+            return base.SaveChangesAsync(cancellationToken);
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
