@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 using NLayer.Core.Repositories;
 using System.Linq.Expressions;
+using System.Security.AccessControl;
 
 namespace NLayerRepository.Repositories
 {

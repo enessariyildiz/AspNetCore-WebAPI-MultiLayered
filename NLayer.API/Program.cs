@@ -6,9 +6,15 @@ using Microsoft.EntityFrameworkCore;
 using NLayer.API.Filters;
 using NLayer.API.Middlewares;
 using NLayer.API.Modules;
+using NLayer.Core.Repositories;
+using NLayer.Core.Services;
+using NLayer.Core.UnitOfWorks;
 using NLayer.Service.Mapping;
+using NLayer.Service.Services;
 using NLayer.Service.Validations;
 using NLayerRepository;
+using NLayerRepository.Repositories;
+using NLayerRepository.UnitOfWorks;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);

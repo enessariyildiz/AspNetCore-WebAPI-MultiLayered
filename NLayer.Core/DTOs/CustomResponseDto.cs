@@ -1,4 +1,9 @@
-﻿using System.Text.Json.Serialization;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Text.Json.Serialization;
+using System.Threading.Tasks;
 
 namespace NLayer.Core.DTOs
 {
@@ -28,7 +33,7 @@ namespace NLayer.Core.DTOs
             {
                 StatusCode = statcusCode,
                 Errors = new List<string> { error }
-            };
+            };  
         }
     }
 }
