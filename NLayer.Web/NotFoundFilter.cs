@@ -16,15 +16,15 @@ namespace NLayer.Web
             _service = service;
         }
 
-        //public void OnActionExecuted(ActionExecutedContext context)
-        //{
-        //    throw new NotImplementedException();
-        //}
+        public void OnActionExecuted(ActionExecutedContext context)
+        {
+            throw new NotImplementedException();
+        }
 
-        //public void OnActionExecuting(ActionExecutingContext context)
-        //{
-        //    throw new NotImplementedException();
-        //}
+        public void OnActionExecuting(ActionExecutingContext context)
+        {
+            throw new NotImplementedException();
+        }
 
         public async void OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
         {

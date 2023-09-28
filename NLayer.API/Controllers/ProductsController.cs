@@ -27,9 +27,9 @@ namespace NLayer.API.Controllers
         [HttpGet("[action]")]
         public async Task<IActionResult> GetProductsWithCategory()
         {
-            //return CreateActionResult(await _service.GetProductsWithCategory());
+            return CreateActionResult(await _service.GetProductsWithCategory());
             //API projesinin hata vermemesi için değiştirdiğim kod satırı.
-            return (IActionResult)await _service.GetProductsWithCategory();
+            //-- return (IActionResult)await _service.GetProductsWithCategory();
         }
 
         /// GET api/products 
